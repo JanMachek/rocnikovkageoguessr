@@ -1,0 +1,88 @@
+import type { Place } from "@/lib/types";
+
+export const PLACES: Place[] = [
+  {
+    id: "praha",
+    name: "Praha",
+    country: "Česko",
+    lat: 50.0755,
+    lng: 14.4378,
+    difficulty: "easy",
+    clues: [
+      { level: 1, text: "Řeka protéká historickým městem a překlenuje ji slavný kamenný most z 14. století." },
+      { level: 2, text: "Mírné pásmo se čtyřmi ročními obdobími. Auta jezdí vpravo." },
+      { level: 3, text: "Měna: koruna. Vlajka je bílo-červená s modrým klínem." },
+      { level: 4, text: "Hlavní město, přibližně 1,3 milionu obyvatel, Evropa." },
+    ],
+  },
+  {
+    id: "reykjavik",
+    name: "Reykjavík",
+    country: "Island",
+    lat: 64.1466,
+    lng: -21.9426,
+    difficulty: "easy",
+    clues: [
+      { level: 1, text: "Sopečný ostrov s gejzíry a polární září, kde je v létě v noci světlo." },
+      { level: 2, text: "Subpolární klima, skoro žádné stromy. Auta jezdí vpravo." },
+      { level: 3, text: "Měna: islandská koruna. Vlajka je modrá s červeným křížem lemovaným bíle." },
+      { level: 4, text: "Nejsevernější hlavní město suverénního státu, kolem 130 tisíc obyvatel." },
+    ],
+  },
+  {
+    id: "kapske-mesto",
+    name: "Kapské Město",
+    country: "Jihoafrická republika",
+    lat: -33.9249,
+    lng: 18.4241,
+    difficulty: "medium",
+    clues: [
+      { level: 1, text: "Město pod plochou horou, nedaleko místa, kde se potkávají dva oceány." },
+      { level: 2, text: "Středomořské klima na jižní polokouli. Auta jezdí vlevo." },
+      { level: 3, text: "Měna: rand. Země má 12 oficiálních jazyků, mezi nimi afrikánštinu." },
+      { level: 4, text: "Legislativní hlavní město, kolem 4 milionů obyvatel, Afrika." },
+    ],
+  },
+  {
+    id: "tokio",
+    name: "Tokio",
+    country: "Japonsko",
+    lat: 35.6762,
+    lng: 139.6503,
+    difficulty: "easy",
+    clues: [
+      { level: 1, text: "Obrovská metropole, kde se vedle sebe potkávají staré svatyně a mrakodrapy." },
+      { level: 2, text: "Vlhké subtropické klima, časté zemětřesení. Auta jezdí vlevo." },
+      { level: 3, text: "Měna: jen. Písmo kombinuje čínské znaky a dvě slabičné abecedy. Vlajka je bílá s červeným kruhem." },
+      { level: 4, text: "Hlavní město, přes 13 milionů obyvatel, Asie." },
+    ],
+  },
+  {
+    id: "cusco",
+    name: "Cusco",
+    country: "Peru",
+    lat: -13.5319,
+    lng: -71.9675,
+    difficulty: "medium",
+    clues: [
+      { level: 1, text: "Horské město ve vysoké nadmořské výšce, bývalé centrum rozsáhlé říše stavitelů z kamene." },
+      { level: 2, text: "Vysokohorské klima s chladnými nocemi. Auta jezdí vpravo." },
+      { level: 3, text: "Měna: sol. Úředním jazykem je španělština a kečuánština." },
+      { level: 4, text: "Nejde o hlavní město, kolem 430 tisíc obyvatel, Jižní Amerika." },
+    ],
+  },
+  {
+    id: "sydney",
+    name: "Sydney",
+    country: "Austrálie",
+    lat: -33.8688,
+    lng: 151.2093,
+    difficulty: "easy",
+    clues: [
+      { level: 1, text: "Přístavní město s budovou připomínající plachty a ocelovým obloukovým mostem." },
+      { level: 2, text: "Mírné subtropické klima na jižní polokouli. Auta jezdí vlevo." },
+      { level: 3, text: "Měna: australský dolar. Na vlajce je Union Jack a souhvězdí Jižní kříž." },
+      { level: 4, text: "Největší město země, ale ne hlavní, kolem 5 milionů obyvatel, Oceánie." },
+    ],
+  },
+];
